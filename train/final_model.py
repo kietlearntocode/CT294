@@ -9,7 +9,6 @@ def train_Rforest(best_max_depth, best_min_samples_split, best_min_samples_leaf,
     X_train = pd.read_csv("fixed_split/X_train.csv")
     y_train = pd.read_csv("fixed_split/y_train.csv").squeeze()
 
-    # ⚠️ SỬA LỖI ở đây: bạn đang truyền nhầm `min_samples_leaf=best_min_samples_split`
     model = RandomForestClassifier(
         n_estimators=n_estimators,
         max_depth=best_max_depth,
