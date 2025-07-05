@@ -5,7 +5,7 @@ import os
 
 save_path = '../deployment/rforest_model.pkl'
 
-def train_Rforest(best_max_depth, best_min_samples_split, best_min_samples_leaf, n_estimators):
+def train_rforest(best_max_depth, best_min_samples_split, best_min_samples_leaf, n_estimators):
     X_train = pd.read_csv("fixed_split/X_train.csv")
     y_train = pd.read_csv("fixed_split/y_train.csv").squeeze()
 
@@ -30,4 +30,7 @@ def train_Rforest(best_max_depth, best_min_samples_split, best_min_samples_leaf,
     print(f"Mô hình đã được lưu tại: {save_path}")
 
 if __name__ == "__main__":
-    train_Rforest(7, 8, 9, 100)
+    best_max_depth, best_min_samples_split, best_min_samples_leaf = 8, 5, 2
+    n_estimators = 300
+
+    train_rforest(best_max_depth, best_min_samples_split, best_min_samples_leaf, n_estimators)
