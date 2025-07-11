@@ -251,7 +251,7 @@ clear_btn.pack(side="left", padx=20, pady=10, expand=True)
 
 submit_btn = tk.Button(
     button_frame,
-    text="Chuẩn đoán Parkinson",
+    text="Chẩn đoán Parkinson",
     command=submit_data,
     bg="#69f18a",
     fg="black",
