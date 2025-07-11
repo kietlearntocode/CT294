@@ -48,7 +48,7 @@ def restore_placeholder(entry, placeholder_text):
 
 # Hàm tải dữ liệu từ file CSV
 def load_csv_row(index):
-    df_path = os.path.abspath(os.path.join(os.getcwd(), "..", "train", "fixed_split", "X_test.csv"))
+    df_path = os.path.abspath(os.path.join(os.getcwd(), "..", "data", "processed", "X_test.csv"))
     df = pd.read_csv(df_path)
     return df.values[index]
 
