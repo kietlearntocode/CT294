@@ -1,13 +1,20 @@
 import os
-import numpy as np
 import pandas as pd
 import tkinter as tk
+import sys
 from joblib import load
 from tkinter import messagebox
 from PIL import Image, ImageTk
+from sklearn.ensemble import RandomForestClassifier ## để đóng gói vào app.exe
 
 # Tải mô hình đã huấn luyện
-model = load(r"rforest_model.pkl")
+if getattr(sys, 'frozen', False):
+    BASE_DIR = sys._MEIPASS
+else:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(BASE_DIR, 'rforest_model.pkl')
+model = load(model_path)
 
 
 # Hàm dự đoán trạng thái bệnh Parkinson
