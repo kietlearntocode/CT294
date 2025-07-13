@@ -9,6 +9,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 ## Cấu trúc thư mục
 ```
 ├── LICENSE
+├── README.md
 ├── app.spec
 ├── config
 │   └── train_config.yml
@@ -37,7 +38,9 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 │       ├── rforest_hold_out.ipynb
 │       └── rforest_kfold.ipynb
 ├── imgs
-│   └── background.png
+│   ├── background.png
+│   └── f1_score_comparison.png
+├── requirements.txt
 ├── src
 │   ├── data
 │   │   ├── data_loader.py
@@ -51,6 +54,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 └── train
     └── train_model.py
 ```
+
 ## Bộ dữ liệu
 - Bộ dữ liệu: [Parkinson's Dataset](https://archive.ics.uci.edu/ml/datasets/parkinsons) từ UCI Machine Learning Repository
 - Số mẫu: 195 dòng, 22 đặc trưng (không bao gồm "name" và "status")
