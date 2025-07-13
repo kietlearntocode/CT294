@@ -131,7 +131,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 
 ![Ảnh kết quả thử nghiệm](imgs/f1_score_comparison.png)
 
-**=> Chọn mô hình tốt nhất là Rừng ngẫu nhiên để triển khai thực tế**
+**Chọn mô hình tốt nhất là Rừng ngẫu nhiên để triển khai thực tế cùng với cấu hình đã chọn**
 
 ---
 
