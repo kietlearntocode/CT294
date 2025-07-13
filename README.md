@@ -1,17 +1,16 @@
 # Tên dự án
-<div style="text-align: justify">
 Đây là một dự án học máy nhằm chẩn đoán khả năng mắc bệnh Parkinson ở một người dựa trên các đặc trưng trong giọng nói có triển khai giao diện GUI với tkinter.
-<\div>
+
 ![Ảnh demo](imgs/screenshot_gui.png)
 
 ## Overview
-<div style="text-align: justify">
+
 Trong lĩnh vực y tế, việc tận dụng dữ liệu sinh học như tín hiệu giọng nói đang dần trở thành một hướng đi nhiều tiềm năng, đặc biệt khi kết hợp với các kỹ thuật học máy hiện đại. Một trong những ứng dụng tiêu biểu là hỗ trợ phân tích các biểu hiện liên quan đến bệnh lý thần kinh.
 
 Parkinson là một dạng rối loạn thoái hóa thần kinh ảnh hưởng rõ rệt đến khả năng vận động và phát âm của người bệnh. Những thay đổi trong giọng nói dù nhỏ cũng có thể phản ánh mức độ rối loạn vận động thanh quản, từ đó trở thành nguồn dữ liệu quan trọng phục vụ các bài toán phân loại.
 
 Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học máy nhằm phân biệt giữa người mắc bệnh Parkinson và người không mắc, dựa trên các đặc trưng âm học được trích xuất từ tín hiệu giọng nói. Mô hình được huấn luyện nhằm học các đặc điểm nổi bật của tín hiệu, hướng tới khả năng phân loại chính xác qua phân tích giọng nói.
-<\div>
+
 ![Ảnh demo](imgs/background.png)
 
 ## Cấu trúc thư mục
