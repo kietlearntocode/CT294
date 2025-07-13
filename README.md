@@ -119,7 +119,8 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 - Dành cho **lập trình viên hoặc cần chạy notebook** bằng lệnh `pip install -r dev-requirements.txt`
 
 > **Ghi chú**:  
-> `dev-requirements.txt` bao gồm toàn bộ thư viện trong `requirements.txt` và thêm các công cụ phát triển như Jupyter, matplotlib, kiểm thử...
+> - `dev-requirements.txt` bao gồm toàn bộ thư viện trong `requirements.txt` và bổ sung thêm các công cụ phát triển như Jupyter, Matplotlib, kiểm thử,...
+> - Tất cả các notebook thử nghiệm mô hình được lưu tại thư mục `experiments`
 
 ---
 
