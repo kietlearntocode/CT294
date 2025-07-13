@@ -1,5 +1,5 @@
-# Ứng dụng học máy nhận biết bệnh nhân Parkinson thông qua các đặc trưng giọng nói với giao diện Tkinter
-Đây là một dự án học máy nhằm nhận biết bệnh nhân Parkinson dựa trên các đặc trưng trong giọng nói có triển khai giao diện GUI với tkinter.
+# Nhận biết bệnh nhân Parkinson thông qua các đặc trưng giọng nói với giao diện Tkinter
+Đây là một dự án máy học ứng dụng nhằm nhận biết bệnh nhân Parkinson dựa trên các đặc trưng trong giọng nói có triển khai giao diện GUI với tkinter.
 
 ![Ảnh demo](imgs/screenshot_gui.png)
 
