@@ -210,4 +210,4 @@ Dự án này được phát hành theo giấy phép MIT. Xem file [LICENSE](LIC
 - Mọi đóng góp, phản hồi hoặc câu hỏi xin gửi về: kietlearntocode@gmail.com. Chúng tôi hoan nghênh mọi đóng góp!
 - Nếu bạn muốn cải tiến dự án:
   - Hãy tạo pull request (PR)
-  - Hoặc mở issue để báo lỗi hoặc đề xuất tính năng mới
+  - Mở issue để báo lỗi hoặc đề xuất tính năng mới
