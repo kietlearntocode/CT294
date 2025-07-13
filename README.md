@@ -179,7 +179,7 @@ Sau khi huấn luyện mô hình, bạn có 2 lựa chọn triển khai:
 
 ### Lựa chọn 1: Chạy trực tiếp bằng Python
 
-- Chạy `deployment/app.py` để mở giao diện GUI viết bằng Tkinter
+- Chạy lệnh `python deployment/app.py` để mở giao diện GUI viết bằng Tkinter
 - Ứng dụng sẽ tải mô hình `.pkl` và cho phép dự đoán từ dữ liệu nhập tay
 
 ### Lựa chọn 2: Tạo file `.exe` với PyInstaller (đã có sẵn `app.spec`)

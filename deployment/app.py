@@ -208,7 +208,9 @@ root.resizable(False, False)
 main_frame = tk.Frame(root, bg="#f0f2f5")
 main_frame.pack(padx=40, pady=20, fill="both", expand=True)
 
-bg_image = Image.open(r"../imgs/background.png")
+current_dir = os.path.dirname(__file__)
+img_path = os.path.join(current_dir, "../imgs/background.png")
+bg_image = Image.open(os.path.abspath(img_path))
 bg_image = bg_image.resize((1280, 800))
 bg_photo = ImageTk.PhotoImage(bg_image)
 
