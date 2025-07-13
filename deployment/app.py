@@ -217,18 +217,18 @@ bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
 # Danh sách chứa tất cả entry và tên thuộc tính
 all_entries = []
-namesProperties = ["MDVP:Fo(Hz)", "MDVP:Fhi(Hz)", "MDVP:Flo(Hz)", "MDVP:Jitter(%)",
-                   "MDVP:Jitter(Abs)", "MDVP:RAP", "MDVP:PPQ", "Jitter:DDP",
-                   "MDVP:Shimmer", "MDVP:Shimmer(dB)", "Shimmer:APQ3",
-                   "Shimmer:APQ5", "MDVP:APQ", "Shimmer:DDA",
+namesProperties = ["MDVP: Fo(Hz)", "MDVP: Fhi(Hz)", "MDVP: Flo(Hz)", "MDVP: Jitter(%)",
+                   "MDVP: Jitter (Abs)", "MDVP: RAP", "MDVP: PPQ", "Jitter: DDP",
+                   "MDVP: Shimmer", "MDVP: Shimmer (dB)", "Shimmer: APQ3",
+                   "Shimmer: APQ5", "MDVP: APQ", "Shimmer: DDA",
                    "NHR", "HNR", "RPDE", "DFA", "spread1",
                    "spread2", "D2", "PPE"]
 # Tạo các nhóm
 create_entry_group(main_frame, "Nhóm tần số cơ bản và dao động tần số", 2, 4,
-                   [["MDVP:Fo(Hz)", "MDVP:Fhi(Hz)", "MDVP:Flo(Hz)", "MDVP:Jitter(%)"],
-                    ["MDVP:Jitter(Abs)", "MDVP:RAP", "MDVP:PPQ", "Jitter:DDP"]])
+                   [["MDVP: Fo(Hz)", "MDVP: Fhi(Hz)", "MDVP: Flo(Hz)", "MDVP: Jitter(%)"],
+                    ["MDVP: Jitter(Abs)", "MDVP: RAP", "MDVP: PPQ", "Jitter: DDP"]])
 create_entry_group(main_frame, "Nhóm biên độ và dao động biên độ", 2, 3,
-                   [["MDVP:Shimmer", "MDVP:Shimmer(dB)", "Shimmer:APQ3"], ["Shimmer:APQ5", "MDVP:APQ", "Shimmer:DDA"]])
+                   [["MDVP: Shimmer", "MDVP: Shimmer(dB)", "Shimmer: APQ3"], ["Shimmer: APQ5", "MDVP: APQ", "Shimmer: DDA"]])
 create_entry_group(main_frame, "Nhóm tỷ lệ tiếng ồn – âm điều hòa", 1, 2, [["NHR", "HNR"]])
 create_entry_group(main_frame, "Nhóm đặc trưng phi tuyến và hỗn loạn", 2, 3,
                    [["RPDE", "DFA", "spread1"], ["spread2", "D2", "PPE"]])
