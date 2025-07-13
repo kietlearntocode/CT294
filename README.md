@@ -75,11 +75,11 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 
 ## Tính năng chính
 
-- [x] Tải và tiền xử lý dữ liệu giọng nói
-- [x] Huấn luyện nhiều mô hình học máy (KNN, Cây quyết định, Rừng ngẫu nhiên)
-- [x] Đánh giá mô hình bằng k-fold và hold-out
-- [x] Xuất mô hình dưới dạng `.pkl` để triển khai
-- [x] Xây dựng giao diện GUI tương tác bằng Tkinter để dự đoán
+- Tải và tiền xử lý dữ liệu giọng nói
+- Huấn luyện nhiều mô hình học máy (KNN, Cây quyết định, Rừng ngẫu nhiên)
+- Đánh giá mô hình bằng k-fold và hold-out
+- Xuất mô hình dưới dạng `.pkl` để triển khai
+- Xây dựng giao diện GUI tương tác bằng Tkinter để dự đoán
 
 ---
 
