@@ -3,6 +3,8 @@
 
 ![Ảnh demo](imgs/screenshot_gui.png)
 
+---
+
 ## Tổng quan
 
 Trong lĩnh vực y tế, việc tận dụng dữ liệu sinh học như tín hiệu giọng nói đang dần trở thành một hướng đi nhiều tiềm năng, đặc biệt khi kết hợp với các kỹ thuật học máy hiện đại. Một trong những ứng dụng tiêu biểu là hỗ trợ phân tích các biểu hiện liên quan đến bệnh lý thần kinh.
@@ -61,6 +63,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 └── train
     └── train_model.py
 ```
+---
 
 ## Bộ dữ liệu
 
@@ -68,13 +71,17 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 - Số mẫu: 195 dòng, 22 đặc trưng (không bao gồm "name" và "status")
 - Nhãn mục tiêu: status (1 = Mắc Parkinson, 0 = Khỏe mạnh)
 
+---
+
 ## Tính năng chính
 
 - [x] Tải và tiền xử lý dữ liệu giọng nói
 - [x] Huấn luyện nhiều mô hình học máy (KNN, Cây quyết định, Rừng ngẫu nhiên)
-- [x] Đánh giá mô hình bằng cross-validation và tập giữ lại (hold-out)
+- [x] Đánh giá mô hình bằng k-fold và hold-out
 - [x] Xuất mô hình dưới dạng `.pkl` để triển khai
 - [x] Xây dựng giao diện GUI tương tác bằng Tkinter để dự đoán
+
+---
 
 ## Công nghệ sử dụng
 
@@ -85,6 +92,8 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 - Tkinter (GUI)
 - PyInstaller (Deployment)
 - Jupyter Notebook (Experiment)
+
+---
 
 ## Cài đặt
 
@@ -112,14 +121,18 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 > **Ghi chú**:  
 > `dev-requirements.txt` bao gồm toàn bộ thư viện trong `requirements.txt` và thêm các công cụ phát triển như Jupyter, matplotlib, kiểm thử...
 
+---
+
 ## Thử nghiệm mô hình
 - Đã thử nghiệm các mô hình: Decision Tree, KNN, Random Forest
 - Các mô hình được đánh giá theo F1-score với K-Fold và Hold-out
-- Biểu đồ minh họa cho thấy Random Forest đạt hiệu suất cao nhất
+- Biểu đồ minh họa cho thấy Random Forest đạt hiệu suất cao nhất với cấu hình mà chúng cho là tốt nhất
 
 ![Ảnh kết quả thử nghiệm](imgs/f1_score_comparison.png)
 
 **=> Chọn mô hình tốt nhất là Rừng ngẫu nhiên để triển khai thực tế**
+
+---
 
 ## Cấu hình
 
@@ -143,7 +156,9 @@ model_params:
   random_state: 42
 ```
 
-## Hướng dẫn chạy mô hình
+---
+
+## Chạy mô hình
 
 ### 1. Huấn luyện mô hình
 
@@ -154,6 +169,8 @@ Chạy script huấn luyện bằng lệnh `python train/train_model.py`
   - `data/processed/X_train.csv`
   - `data/processed/y_train.csv`
 - Mô hình Random Forest được huấn luyện và lưu tại `deployment/rforest_model.pkl`
+
+---
 
 ## Triển khai
 
@@ -171,16 +188,13 @@ Sau khi huấn luyện mô hình, bạn có 2 lựa chọn triển khai:
 - Có thể chạy trên máy khác mà không cần Python hoặc môi trường ảo.
 - `pip install pyinstaller` nếu bạn chưa cài `pyinstaller`
 
+---
+
 ## Giấy phép
 
 Dự án này được phát hành theo giấy phép MIT. Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
 
-##  Đóng góp
-
-- Mọi đóng góp, phản hồi hoặc câu hỏi xin gửi về: kietlearntocode@gmail.com. Chúng tôi hoan nghênh mọi đóng góp!
-- Nếu bạn muốn cải tiến dự án:
-  - Hãy tạo pull request (PR)
-  - Hoặc mở issue để báo lỗi hoặc đề xuất tính năng mới
+---
 
 ## Nhóm thực hiện
 
@@ -188,3 +202,12 @@ Dự án này được phát hành theo giấy phép MIT. Xem file [LICENSE](LIC
 - Nguyễn Tiến Phát – Thiết kế giao diện GUI
 - Nguyễn Hải Đăng – Đóng gói & tài liệu
 - Email liên hệ: kietlearntocode@gmail.com
+
+---
+
+##  Đóng góp
+
+- Mọi đóng góp, phản hồi hoặc câu hỏi xin gửi về: kietlearntocode@gmail.com. Chúng tôi hoan nghênh mọi đóng góp!
+- Nếu bạn muốn cải tiến dự án:
+  - Hãy tạo pull request (PR)
+  - Hoặc mở issue để báo lỗi hoặc đề xuất tính năng mới
