@@ -175,6 +175,6 @@ Nếu bạn muốn cải tiến dự án:
 - Hãy tạo pull request (PR)
 - Hoặc mở issue để báo lỗi hoặc đề xuất tính năng mới
 ### Nhóm thực hiện
-- Nguyen Minh Kiệt – Xử lý dữ liệu & mô hình
+- Nguyễn Minh Kiệt – Xử lý dữ liệu & mô hình
 - Nguyễn Tiến Phát – Thiết kế giao diện GUI
 - Nguyễn Hải Đăng – Đóng gói & tài liệu
