@@ -3,7 +3,7 @@
 
 ![Ảnh demo](imgs/screenshot_gui.png)
 
-## Overview
+## Tổng quan
 
 Trong lĩnh vực y tế, việc tận dụng dữ liệu sinh học như tín hiệu giọng nói đang dần trở thành một hướng đi nhiều tiềm năng, đặc biệt khi kết hợp với các kỹ thuật học máy hiện đại. Một trong những ứng dụng tiêu biểu là hỗ trợ phân tích các biểu hiện liên quan đến bệnh lý thần kinh.
 
