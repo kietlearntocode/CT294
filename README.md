@@ -178,8 +178,8 @@ Sau khi huấn luyện mô hình, bạn có 2 lựa chọn triển khai:
 
 ### 1. Chạy trực tiếp bằng Python
 
-- Chạy `deployment/app.py` để mở giao diện GUI viết bằng Tkinter.
-- Ứng dụng sẽ tải mô hình `.pkl` và cho phép dự đoán từ dữ liệu nhập tay.
+- Chạy `deployment/app.py` để mở giao diện GUI viết bằng Tkinter
+- Ứng dụng sẽ tải mô hình `.pkl` và cho phép dự đoán từ dữ liệu nhập tay
 
 ### 2. Tạo file `.exe` với PyInstaller (đã có sẵn `app.spec`)
 
@@ -192,7 +192,7 @@ Sau khi huấn luyện mô hình, bạn có 2 lựa chọn triển khai:
 
 ## Giấy phép
 
-Dự án này được phát hành theo giấy phép MIT. Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
+Dự án này được phát hành theo giấy phép MIT. Xem file [LICENSE](LICENSE) để biết thêm chi tiết
 
 ---
 
