@@ -100,7 +100,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 ### 1. Cài đặt Python
 
 - Tải Python **3.11.9** từ [python.org](https://www.python.org/downloads/release/python-3119/)
-- Trong quá trình cài đặt, nhớ tích chọn **"Add Python to PATH"**
+- Trong quá trình cài đặt tích chọn **"Add Python to PATH"**
 
 ### 2. Tạo môi trường ảo (venv)
 
@@ -177,12 +177,12 @@ Chạy script huấn luyện bằng lệnh `python train/train_model.py`
 
 Sau khi huấn luyện mô hình, bạn có 2 lựa chọn triển khai:
 
-### 1. Chạy trực tiếp bằng Python
+### Lựa chọn 1: Chạy trực tiếp bằng Python
 
 - Chạy `deployment/app.py` để mở giao diện GUI viết bằng Tkinter
 - Ứng dụng sẽ tải mô hình `.pkl` và cho phép dự đoán từ dữ liệu nhập tay
 
-### 2. Tạo file `.exe` với PyInstaller (đã có sẵn `app.spec`)
+### Lựa chọn 2: Tạo file `.exe` với PyInstaller (đã có sẵn `app.spec`)
 
 - Để tạo file `.exe`, chỉ cần chạy lệnh `pyinstaller app.spec`
 - File thực thi sẽ được tạo tại `dist/app.exe`
