@@ -199,7 +199,7 @@ def swap_option():
 
 # Tạo cửa sổ chính
 root = tk.Tk()
-root.title("Chuẩn đoán Parkinson")
+root.title("Chẩn đoán Parkinson")
 root.geometry("1280x800")
 root.configure(bg="#f0f2f5")
 root.resizable(False, False)
