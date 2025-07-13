@@ -127,7 +127,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 ## Thử nghiệm mô hình
 - Đã thử nghiệm các mô hình: Decision Tree, KNN, Random Forest
 - Các mô hình được đánh giá theo F1-score với K-Fold và Hold-out
-- Biểu đồ minh họa cho thấy Random Forest đạt hiệu suất cao nhất với cấu hình mà chúng cho là tốt nhất
+- Biểu đồ minh họa cho thấy Random Forest đạt hiệu suất cao nhất với cấu hình mà chúng tôi cho là tốt nhất
 
 ![Ảnh kết quả thử nghiệm](imgs/f1_score_comparison.png)
 
