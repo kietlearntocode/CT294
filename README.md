@@ -100,7 +100,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 ### 1. Cài đặt Python
 
 - Tải Python **3.11.9** từ [python.org](https://www.python.org/downloads/release/python-3119/)
-- Trong quá trình cài đặt, nhớ tích chọn **"Add Python to PATH"**
+- Trong quá trình cài đặt tích chọn **"Add Python to PATH"**
 
 ### 2. Tạo môi trường ảo (venv)
 
