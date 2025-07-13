@@ -137,7 +137,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 
 ## Cấu hình
 
-Việc huấn luyện mô hình được điều khiển thông qua file `config\train_config.yml`
+Việc huấn luyện mô hình được điều khiển thông qua file `config/train_config.yml`
 
 ```yaml
 model: "random_forest"
