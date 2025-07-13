@@ -114,7 +114,7 @@ Trong nghiên cứu này, chúng tôi tiến hành xây dựng mô hình học m
 - Các mô hình được đánh giá theo F1-score với K-Fold và Hold-out
 - Biểu đồ minh họa cho thấy Random Forest đạt hiệu suất cao nhất
 ![Ảnh kết quả thử nghiệm](imgs/f1_score_comparison.png)
-> Chọn mô hình tốt nhất là Rừng ngẫu nhiên để triển khai thực tế
+**=> Chọn mô hình tốt nhất là Rừng ngẫu nhiên để triển khai thực tế**
 
 ## Cấu hình
 Việc huấn luyện mô hình được điều khiển thông qua file `config\train_config.yml`:
