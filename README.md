@@ -187,7 +187,6 @@ Sau khi huấn luyện mô hình, bạn có 2 lựa chọn triển khai:
 - Để tạo file `.exe`, chỉ cần chạy lệnh `pyinstaller app.spec`
 - File thực thi sẽ được tạo tại `dist/app.exe`
 - Có thể chạy độc lập mà không cần Python hoặc môi trường ảo
-- `pip install pyinstaller` nếu bạn chưa cài `pyinstaller`
 
 ---
 
